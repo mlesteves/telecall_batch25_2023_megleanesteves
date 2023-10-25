@@ -1,0 +1,446 @@
+
+/* Navbar */
+.nav-wrapper {
+    background-color: #202020;
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.brand-logo {
+    width: 60px;
+    height: auto;
+}
+
+.button1 {
+    background-color: #A4816D; 
+    color: white;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dropdown-content {
+    background-color: #202020;
+    color: #FFFFFF;
+    display: none;
+    position: absolute;
+    min-width: 250px;
+}
+
+/* Sidenav Structure */
+.sidenav {
+    background-color: #202020;
+    color: #FFFFFF;
+}
+
+.user-view {
+    height: 150px;
+    bottom: 0;
+}
+
+.logo-1 {
+    position: absolute;
+    top: 5px;
+    right: 16px;
+}
+
+.name {
+    color: #202020;
+    text-align: right;
+    position: absolute;
+    bottom: 35px;
+    right: 16px;
+
+}
+
+.email {
+    color: #202020;
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 16px;
+    font-weight: 500;
+}
+
+.sidenav-text {
+    color: white;
+}
+
+
+/* Main */
+
+.box1 {
+    background-color: #202020;
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 10px;
+    padding: 25px;
+    bottom: 0px;
+    right: 16px;
+    font-weight: 500;
+}
+
+
+/* Footer */
+.page-footer {
+    background-color: #202020;
+}
+
+
+.logo-2 {
+    width: 250px;
+    
+}
+
+.text1 {
+    color: #A4816D;
+    text-align: left;
+    font-family: Pristina;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.text2 {
+    color: #A4816D;
+    text-align: right;
+    font-family: Pristina;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.text3 {
+    text-align: right;
+    color: white;
+}
+
+p {
+    margin:0;
+    padding:0;
+}
+
+
+/* Home Page */
+
+.background-1 {
+    background: url(Images/Background-1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-bottom: 0;
+    padding-left: 20px;
+}
+
+.h3-home {
+    background-color: #202020;
+    width: 300px;
+    justify-content: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+    text-align: center;
+    font-family: Pristina;
+}
+
+.h5-home {
+        background-color: #202020;
+        justify-content: center;
+        width: 300px;
+        margin: 0;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 0;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+h3 {
+    background-color: #202020;
+    justify-content: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+    text-align: center;
+    font-family: Pristina;
+}
+
+h5 {
+    background-color: #202020;
+    justify-content: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.intro {
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.home-intro {
+    background-color: #E3D1C5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.home-image1 {
+    padding: 30px
+}
+
+.home-title {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 400;
+    font-family: Pristina;
+}
+
+.home-content1 {
+    color: #202020;
+    text-align: justify;
+    font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home-content2 {
+    color: #202020;
+    text-align: justify;
+    font-size: larger;
+    padding-top: 0;
+    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home-services {
+    background-color: #202020;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.home-font1 {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.home-font2 {
+    color: #A4816D;
+    padding: 0;
+    margin: 0;
+}
+
+.divider {
+
+    margin-left: 5px;
+}
+
+.services-layout {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.services-card {
+    background-color: #202020;
+}
+
+.service-img {
+    height: 50px;
+    width: auto;
+}
+
+.services {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #A4816D;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: larger;
+}
+
+
+.service-content {
+    color: aliceblue;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.home-end {
+    background-color: #A4816D;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.home-text1 {
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: right;
+}
+
+
+.home-text2 {
+    color: #202020;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.btn-end {
+    background-color: #202020;
+    color: #E3D1C5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.button2 {
+    background-color: #202020; 
+    color: white;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.button3 {
+    background-color: #A4816D; 
+    color: white;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.button4 {
+    background-color: #202020; 
+    color: #E3D1C5;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+/* Contact Page */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    width: 100%;
+    height: 200px;
+    background-image: url(Images/Background-2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: Pristina;
+    font-weight: 500;
+}
+
+
+.contact-text {
+    background-color: #202020;
+    color: #A4816D;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+container .text-box1 {
+    margin-top: 0%;
+    text-align: center;
+    
+}
+
+.contact-1 {
+    background-color: white;
+    height: auto;
+
+}
+
+.contact-form {
+    background-color: #A4816D;
+    padding: 30px;
+}
+
+.H-Cform {
+    font-family: Pristina;
+    font-weight: 500;
+}
+
+.input-group {
+    flex-basis: 45%;
+}
+
+input {
+    color: #202020;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+label {
+    font-size: larger;
+    color: #202020;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-text2 {
+    background-color: #202020;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-2 {
+    color: #A4816D;
+    font-family: Pristina;
+    font-weight: 500;
+    font-size: xxx-large;
+}
+
+.button5 {
+    background-color: #202020; 
+    color: #E3D1C5;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+}
+
